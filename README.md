@@ -1,3 +1,3 @@
 # nerds
 
-ozz-rjq.github.io/nerds
+[a link](ozz-rjq.github.io/nerds)
