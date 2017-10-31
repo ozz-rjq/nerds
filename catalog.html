@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Nerds Catalog</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.min.css">
+	<link rel="icon" href="img/favicon.ico" type="image/ico">
+</head>
+<body class="inner-page">
+	<header class="main-header">
+		<div class="container">
+			<div class="top-header clearfix">
+				<div class="index-logo">
+					<a href="index.html">
+						<img src="img/nerds-logo.png" alt="Logotype" width="139" height="56">
+					</a>
+				</div>
+				<nav class="main-navigation">
+					<ul>
+						<li>
+							<a href="index.html">Студия</a>
+						</li>
+						<li>
+							<a href="#">Клиенты</a>
+						</li>
+						<li>
+							<span class="active-page">Магазин</span>
+						</li>
+						<li>
+							<a href="#">Контакты</a>
+						</li>
+					</ul>
+				</nav>
+				<a href="#" class="header-cart">Корзина</a>
+			</div>
+			<section class="big-heading">
+				<h1>
+					Добро пожаловать в магазин<br> готовых макетов
+				</h1>
+			</section>
+		</div>
+	</header>
+
+	<main class="container clearfix">
+		<div class="inner-form">
+			<form action="#" method="post">
+				<fieldset>
+					<legend>Стоимость:</legend>
+					<div class="catalog-filter-controls">
+
+						<div class="catalog-filter-scale">
+							<div class="catalog-scale-bar"></div>
+						</div>
+
+						<div class="catalog-scale-toggle catalog-min-toggle"></div>
+
+						<div class="catalog-scale-toggle catalog-max-toggle"></div>
+
+					</div>
+					<p class="form-range">От <span class="price-box">0</span> до <span class="price-box">15 000</span></p>
+				</fieldset>
+
+				<fieldset>
+					<legend>Сетка:</legend>
+					<ul>
+						<li>
+							<input type="radio" name="grid" value="adaptive" id="radio1"> 
+							<span class="radio-button"></span>
+							<label for="radio1">
+								Адаптивная
+							</label>
+						</li>
+						<li>
+							<input type="radio" name="grid" value="fixed" id="radio2" checked>
+							<span class="radio-button"></span>
+							<label for="radio2">
+								Фиксированная
+							</label>
+						</li>
+						<li>
+							<input type="radio" name="grid" value="rubber" id="radio3" disabled>
+							<span class="radio-button"></span>
+							<label for="radio3">
+								Резиновая
+							</label>
+						</li>
+					</ul>
+					
+				</fieldset>
+
+				<fieldset>
+					<legend>Особенности:</legend>
+					<ul>
+						<li>
+							<input type="checkbox" name="features" value = "slider" id="checkbox1">
+							<span class="checkbox"></span>
+							<label for="checkbox1">
+								Слайдер
+							</label>
+						</li>
+						<li>
+							<input type="checkbox" name="features" value = "block" id="checkbox2" disabled> 
+							<span class="checkbox"></span>
+							<label for="checkbox2">
+								Блок преимуществ 
+							</label>
+						</li>
+						<li>
+							<input type="checkbox" name="features" value = "news" id="checkbox3" checked>
+							<span class="checkbox"></span>
+							<label for="checkbox3">
+								Новости
+							</label>
+						</li>
+						<li>
+							<input type="checkbox" name="features" value = "gallery" id="checkbox4"> 
+							<span class="checkbox"></span>
+							<label for="checkbox4">
+								Галерея
+							</label>
+						</li>
+						<li>
+							<input type="checkbox" name="features" value = "basket" id="checkbox5">
+							<span class="checkbox"></span>
+							<label for="checkbox5">
+								Корзина
+							</label>
+						</li>
+					</ul>
+				</fieldset>
+
+				<button type="submit" class="btn">
+					Показать
+				</button>
+			</form>
+		</div>
+
+		<div class="main-catalog">
+			<div class="navigation">
+				<ul>
+					<li>
+						Сортировать:
+					</li>
+					<li>
+						<a href="#">По цене</a>
+					</li>
+					<li>
+						<a href="#">По типу</a>
+					</li>
+					<li>
+						<a href="#">По функционалу</a>
+					</li>
+					<li>
+						<a href="#">
+							<span class="arrow-down arrow-active"></span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<span class="arrow-up"></span>
+						</a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="main-catalog-container">
+				<div class="catalog-item">
+					<div class="catalog-item-head">
+					  <div class="transparent-circle"></div>
+					  <div class="transparent-circle"></div>
+					  <div class="transparent-circle"></div>
+					</div>
+					<div class="catalog-item-inner">
+						<h2>Sunset</h2>
+						<p>
+							Интернет-магазин с личным кабинетом
+						</p>
+						<button type="button" class="btn btn-red">
+							10000 р.
+						</button>
+					</div>
+				</div>
+				<div class="catalog-item">
+					<div class="catalog-item-head">
+					  <div class="transparent-circle"></div>
+					  <div class="transparent-circle"></div>
+					  <div class="transparent-circle"></div>
+					</div>
+					<div class="catalog-item-inner">
+						<h2>Sunset</h2>
+						<p>
+							Интернет-магазин с личным кабинетом
+						</p>
+						<button type="button" class="btn btn-red">
+							10000 р.
+						</button>
+					</div>
+				</div>
+				<div class="catalog-item">
+					<div class="catalog-item-head">
+					  <div class="transparent-circle"></div>
+					  <div class="transparent-circle"></div>
+					  <div class="transparent-circle"></div>
+					</div>
+					<div class="catalog-item-inner">
+						<h2>Sunset</h2>
+						<p>
+							Интернет-магазин с личным кабинетом
+						</p>
+						<button type="button" class="btn btn-red">
+							10000 р.
+						</button>
+					</div>
+				</div>
+				<div class="catalog-item">
+					<div class="catalog-item-head">
+					  <div class="transparent-circle"></div>
+					  <div class="transparent-circle"></div>
+					  <div class="transparent-circle"></div>
+					</div>
+					<div class="catalog-item-inner">
+						<h2>Sunset</h2>
+						<p>
+							Интернет-магазин с личным кабинетом
+						</p>
+						<button type="button" class="btn btn-red">
+							10000 р.
+						</button>
+					</div>
+				</div>
+				<div class="catalog-item">
+					<div class="catalog-item-head">
+					  <div class="transparent-circle"></div>
+					  <div class="transparent-circle"></div>
+					  <div class="transparent-circle"></div>
+					</div>
+					<div class="catalog-item-inner">
+						<h2>Sunset</h2>
+						<p>
+							Интернет-магазин с личным кабинетом
+						</p>
+						<button type="button" class="btn btn-red">
+							10000 р.
+						</button>
+					</div>
+				</div>
+				<div class="catalog-item">
+					<div class="catalog-item-head">
+					  <div class="transparent-circle"></div>
+					  <div class="transparent-circle"></div>
+					  <div class="transparent-circle"></div>
+					</div>
+					<div class="catalog-item-inner">
+						<h2>Sunset</h2>
+						<p>
+							Интернет-магазин с личным кабинетом
+						</p>
+						<button type="button" class="btn btn-red">
+							10000 р.
+						</button>
+					</div>
+				</div>
+			</div>
+			<div class="pagination">
+				<ul class="pagination-list">
+					<li>
+						<span class="active-page">1</span>
+					</li>
+					<li>
+						<a href="#">2</a>
+					</li>
+					<li>
+						<a href="#">3</a>
+					</li>
+					<li>
+						<a href="#">Следующая</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</main>
+
+	<div class="map">
+		<div class="map-show">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2011.865014758506!2d30.410243315846646!3d59.71843618179668!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46962115abc8977b%3A0x1d4d4bbd2222f4a6!2z0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LCDQn9GD0YjQutC40L0sINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCDQoNC-0YHRltGPLCAxOTY2MDE!5e0!3m2!1suk!2sua!4v1507387067952" width="1366" height="416" frameborder="0" style="border:0" allowfullscreen></iframe>
+		</div>
+		<div class="map-info">
+			<h3>NЁRDS DESIGN STUDIO</h3>
+			<p>
+				191186, Санкт-Петербург, <br>
+				ул. Б. Конюшенная, д. 19/7
+			</p>
+			<p>
+				тел. +7 (812) 275-75-75
+			</p>
+			<a href="#" class="btn btn-red js-open-modal">
+				Напишите нам
+			</a>
+		</div>
+	</div>
+
+	<footer class="main-footer">
+		<div class="container clearfix">
+			<div class="footer-friends">
+				<ul>
+					<li>
+						<a href="#" class="vk-icon">VK</a>
+					</li>
+					<li>
+						<a href="#" class="fb-icon">FB</a>
+					</li>
+					<li>
+						<a href="#" class="insta-icon">Instagram</a>
+					</li>
+				</ul>
+			</div>
+			<div class="footer-message">
+				<h2 class="footer-message-title">
+					Давайте дружить, это выгодно!
+				</h2>
+				<p>
+					Скидка 10% для друзей из социальных сетей.
+				</p>
+			</div>
+		</div>
+	</footer>
+
+	<div class="modal-content">
+		<button type="button" class="modal-content-close"></button>
+		<form action="#" method="post">
+			<div class="modal-content-top clearfix">
+				<div class="modal-content-left">
+					<span class="modal-content-preview">Ваше имя:</span><br>
+					<input type="text" placeholder="Представьтесь, пожалуйста" class="name">
+				</div>
+				<div class="modal-content-right">
+					<span class="modal-content-preview">Ваш e-mail:</span><br>
+					<input type="email" placeholder="Для отправки ответа" class="email">
+				</div>
+			</div>
+			<div class="modal-content-bottom clearfix">
+				<span class="modal-content-preview">Текст письма:</span><br>
+				<textarea rows="5" placeholder="В свободной форме" class="text-info"></textarea>
+			</div>
+
+			<button type="submit" class="btn btn-red js-send"> 
+				Отправить
+			</button>
+
+		</form>
+	</div>
+
+	<script src="js/script.js"></script>
+
+</body>
+</html>
