@@ -774,7 +774,7 @@ main + hr{
 	bottom: 10%;
 	left: 50%;
 	margin-left: -315px;
-	z-index: 20;
+	z-index: 100;
 
 	display: none;
 }
